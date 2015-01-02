@@ -1,0 +1,145 @@
+Icon theme :: Baroque
+=====================
+ToDo:
+
+You may notice that this so-called icon "theme" is nothing but a hodge-podge of images borrowed from other themes. This is correct, I have used elements of Tango, Oxygen, Gartoon and others to mock up a look'n'feel. It's a bit of a mess at the moment, but it serves for now. I am slowly replacing the majority with purpose-made graphics.
+
+Dark Materials:
+--------------
+Polished wood, brass, ruby, amethyst and tanned leather. 
+
+Specific Colours:
+Amethyst: #550066 #883399 #aa66ee
+Ruby: #990000 #cc0000 #dd6666
+Mahogany: #663300 #996622 #bb9944
+Tan: #994400 #cc8800 #ddbb66
+Gold: #997700 #ffcc00 #ffdd66
+Verdure: #446600 #668800 #99bb00
+Cobalt: #003366 #446699 #88aacc
+Steel: #332200 #554422 #776644 #998866 #bbaa88 #ddccaa 
+
+Style pointers: 'steampunk' or the dashboard of a British 1960s sports car. Dark, mechanical and old-fashioned.
+
+File formats: Master designs for desktop icons and in the file manager views should be 48x48 pixel SVGs. Bitmap icons should be RGBA PNG and the vector icons in SVG format. Toolbar icons should be 22x22 PNGs. Some 16x16 PNGs may be created for common list and menu icons.
+
+Content: I intend to bring the icons more in line with http://tango.freedesktop.org/Icon_Metaphors, http://tango.freedesktop.org/Generic_Icon_Theme_Guidelines, http://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest.html and http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html.
+
+I suggest you use Free Software to produce the artwork. Try Inkscape for a vector editor and GIMP fits the bill perfectly as a bitmap icon editor. 
+
+Specific Notes:
+--------------
+In no particular order:
+
+0.1.1
+=====
+Recolour SVGs to fit with palette.
+
+# Computer Screens: Need steampunkifying more.
+applications/preferences-desktop-screensaver.svg # black
+applications/preferences-desktop-wallpaper.svg # black
+applications/utilities-system-monitor.svg # black
+applications/utilities-terminal.svg # black
+categories/preferences-system-network.svg # redesign black (-workgroup)
+
+# Chat
+status/user-away.svg # [missing] meta4((Maroon) filled square )
+status/user-idle.svg # [missing] meta4((Yellow) horizontal oval )
+status/user-offline.svg # [missing] meta4((Grey) dash )
+status/user-online.svg # jewellify meta4((Green) filled circle )
+
+# Applications
+categories/applications-development.svg # redesign
+
+categories/applications-office.svg # meta4(typewriter)
+
+# Battery
+devices/battery.svg # redo
+status/battery-caution.svg # redo meta4(A battery with a yellow glow, yellow coloring )
+status/battery-low.svg # [missing] meta4(A red battery, A battery with a red glow )
+
+# Cameras
+devices/camera-web.svg # [missing]
+
+# Scanner
+devices/scanner.svg # black
+
+# Sync
+emblems/emblem-synchronized.svg # [missing]
+status/sync-error.svg # [missing]
+status/sync-synchronizing.svg # [missing] meta4(Circle of two icons chasing each other, animated )
+
+places/user-desktop.svg # redraw
+emblems/emblem-desktop.svg
+
+0.1.2
+=====
+# Folders: Isometric view has to go. I want to keep the drawers, but desk-view. For smaller icon sizes (22px/16px), these could become golden-yellow folders.
+places/folder.svg
+places/folder-remote.svg
+status/folder-drag-accept.svg
+status/folder-open.svg
+status/folder-visiting.svg
+mimetypes/x-directory-remote 	meta4(Folder with a small planet Earth in the corner )
+
+# Editing: Wastebin; Lose isometric view.
+actions/edit-delete.svg # Redsign desk-view wastebasket
+places/user-trash.svg
+status/user-trash-full.svg
+actions/mail-mark-junk.svg # meta4(rubbish bag)
+actions/mail-mark-notjunk.svg # meta4(rubbish bag with diagonal black line)
+
+actions/tools-check-spelling.svg # small version needs making clearer
+
+# Emblems
+emblems/emblem-downloads #	meta4(A package with a down arrow) 
+emblems/emblem-readonly #	meta4(An eye)
+emblems/emblem-unreadable #	meta4(a grey X)
+
+# Find / Replace: Binoculars need lightening / outlining to make clearer. Any better ideas for the design of 'replace' welcomed.
+actions/edit-find.svg # Binoculars need lightening & defining meta4(Blank text document with overlaid binoculars)
+actions/edit-find-replace # meta4(Blank text document with overlaid binoculars and pencil )
+
+# Documents
+actions/document-open.svg
+actions/document-open-recent.svg
+actions/document-page-setup.svg
+actions/document-print # + meta4(A printer with a arrow pointing up from it )
+actions/document-properties # redo -> meta4(page with wrench)
+actions/document-save-as.svg # + meta4(Floppy disk with overlaid pencil)
+actions/document-send.svg
+emblems/emblem-documents.svg # redesign
+mimetypes/text-html.svg
+mimetypes/text-x-generic.svg # clean up & define
+mimetypes/text-x-generic-template.svg
+mimetypes/text-x-script.svg
+
+mimetypes/x-office-document.svg
+mimetypes/x-office-presentation.svg
+mimetypes/x-office-spreadsheet.svg
+
+mimetypes/x-office-calendar.svg # could be better defined
+
+# Gears
+emblems/emblem-system.svg
+mimetypes/application-x-executable.svg
+actions/system-run.svg # Define stronger
+categories/applications-other.svg
+categories/applications-system.svg
+
+# Drives / Input
+devices/audio-card # meta4(A circuit board with a small note or speaker in the corner? )
+devices/video-card # meta4(A circuit board with a Tv or picture embeded on it? )
+devices/drive-optical.svg # black
+
+#Network
+places/network-server.svg # black
+devices/network-wired.svg
+devices/network-wireless.svg
+
+# General
+places/start-here.svg # Special steampunk / Baroque footprint?
+
+places/user-home.svg
+
+--
+tim@pathilorra.co.uk
