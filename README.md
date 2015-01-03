@@ -8,10 +8,13 @@ License: CC-BY-SA 3.0 unless otherwise noted.
 
 # Instructions
 
-Click the Download ZIP link at the bottom of the right-hand column -->
-You can either drag the .zip file into the settings > appearance window
+* Click the Download ZIP link at the bottom of the right-hand column -->
+* You can either drag the .zip file into the settings > appearance window
+
 OR
-Extract the .zip file into ~/.icons/ in your home folder
+
+* Extract the .zip file into ~/.icons/ in your home folder
+
 Either should work.
 
 # Details
