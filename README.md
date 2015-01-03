@@ -6,6 +6,16 @@ A FreeDesktop.org compatible icon set which plays fast and loose with the Tango 
 
 License: CC-BY-SA 3.0 unless otherwise noted.
 
+# Instructions
+
+Click the Download ZIP link at the bottom of the right-hand column -->
+You can either drag the .zip file into the settings > appearance window
+OR
+Extract the .zip file into ~/.icons/ in your home folder
+Either should work.
+
+# Details
+
 Designed to go with:
 https://github.com/0-afflatus/baroque-theme
 
